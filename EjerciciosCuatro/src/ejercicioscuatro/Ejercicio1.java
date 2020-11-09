@@ -5,6 +5,9 @@
  */
 package ejercicioscuatro;
 
+import java.util.Locale;
+import java.util.Scanner;
+
 /**
  *
  * @author reroes
@@ -16,6 +19,30 @@ public class Ejercicio1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner entrada = new Scanner(System.in);
+        entrada.useLocale(Locale.US);
+        
+       // declarar las variables
+       double base;
+       double altura;
+       double area;
+       
+       System.out.println(Ingrese la base);
+       base = entrada.nextDouble();
+       System.out.println(Ingrese la altura);
+       altura= entrada.nextDouble();
+       
+       
+       
+       
+       
+        
+        
+        
+        
+        
+        
+        
     }
     
 }
